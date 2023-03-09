@@ -10,8 +10,8 @@ typedef struct point_s {
 void print_state(int**, int, int, int*, int);
 Point* find_best_starting_points(int**, int, int);
 void swap(Point*, Point*);
-int partition(Point, int, int);
-void quick_sort(Point, int, int);
+int partition(Point*, int, int);
+void quick_sort(Point*, int, int);
 
 int main(int argc, char** argv) {
 
